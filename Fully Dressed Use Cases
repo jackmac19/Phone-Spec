@@ -34,3 +34,40 @@ Extensions
 1(c) Requestor clicks the wrong parts.
 2(a) Website crashes due to high traffic.
 3(b)  
+
+
+
+
+
+
+PhoneSpec Use Case 1.4 Phone Delivery
+Goal in Context: Requestor wants phone delivered to home address.
+
+Stakeholders and interests
+   Requestor: Wants phone delivered
+   Phone Spec Company: Wants to have phone delivered in 24 hours to adhere to company policy and reputation
+   Courier: Wants to get paid for deliveries.
+
+Primary Actor: The user – Has ordered the phone and now must choose delivery type
+Preconditions: The user must have an account and must be logged into the account and must have purchased a phone
+Post conditions: The user’s phone has been delivered to address on users account
+
+Trigger: Requestor wants phone deliverd instead of collection
+
+
+Main Success Scenario:
+1.	User selects phone for delivery
+2.	User is notified that there is an extra charge for delivery rather than collection 
+3.	User agrees to extra charge.
+4.	User confirms address.
+5.	User is bought to the page for confirmation of item delivered.
+6. System notfies courier of item for delivery
+7.System sends customer address details to courier
+8.	Product arrives at address next day
+Alternative Flows:
+	Incorrect address/doesn’t agree to charge
+1.	User provides an incorrect address.
+2.	Systems returns message of incorrect address corresponding to one used to set up account
+3.	User doesn’t agree to delivery charge.
+4.	User is brought back to optional selection of delivery or collection.
+
