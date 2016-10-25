@@ -1,0 +1,36 @@
+Fully Dressed Build a phone online
+
+Actor           
+Customer        
+
+Goal in Context: Person Browsing the internet looking for a custom built phone.
+
+Scope: The website is an online form of purchasing. The customer has no interaction with people but with an online
+site.
+
+Level: ........
+
+Stakeholders and interests
+   Requestor: Wants to build and buy a phone.
+   Phone Spec Company: Wants to make sales and grow their buisiness
+   Vendor: Wants to get paid for deliveries.
+   
+Precondition: None
+
+Trigger: Requestor decides to buy something.
+
+                                                          Main Success Scenario
+1 Requestor builds a phone.
+2 Phone Spec ensure that parts are in stock and calculates price of combined part's.
+3 Requestor adds to cart.
+4 Requestor buys the phone.
+5 Phone Spec process the card details and confirm purchase pushes order onto vendor.
+6 Vendor confirms order.
+7 Phone is delivered.
+
+Extensions
+1(a) Website fails to show that certain parts are out of stock.
+1(b) Website fails to show that certain new parts are in stock.
+1(c) Requestor clicks the wrong parts.
+2(a) Website crashes due to high traffic.
+3(b)  
